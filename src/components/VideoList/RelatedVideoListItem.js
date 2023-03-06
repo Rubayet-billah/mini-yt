@@ -1,6 +1,6 @@
 import React from "react";
 
-const VideoListItem = () => {
+const RelatedVideoListItem = () => {
   return (
     <div class="w-full flex flex-row gap-2 mb-4">
       <div class="relative w-[168px] h-[94px] flex-none duration-300 hover:scale-[1.03]">
@@ -29,4 +29,4 @@ const VideoListItem = () => {
   );
 };
 
-export default VideoListItem;
+export default RelatedVideoListItem;
