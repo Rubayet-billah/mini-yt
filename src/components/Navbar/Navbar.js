@@ -1,6 +1,6 @@
 import React from "react";
 import lwsLogo from "../../assets/lws.svg";
-import serachSvg from "../../assets/search.svg";
+
 import Search from "./Search";
 
 const Navbar = () => {
@@ -12,11 +12,6 @@ const Navbar = () => {
         </a>
         <div className="border border-slate-200 flex items-center bg-white h-10 px-5 rounded-lg text-sm ring-emerald-200">
           <Search />
-          <img
-            className="inline h-4 cursor-pointer"
-            src={serachSvg}
-            alt="Search"
-          />
         </div>
       </div>
     </nav>
